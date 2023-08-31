@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.7.8/plyr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display+SC">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Showcase</title>
+</head>
+<body>
+    <header>
+        <h1>Showcase</h1>
+        <nav>
+            <a href="#" id="contact-button">Contact</a>
+            <!-- <a href="#">About</a> -->
+        </nav>
+        </header>
+        <section class="carousel owl-carousel video-section">
+            <div class="item">
+                <div class="video-container">
+                    <a href="./assets/html/example.html">
+                    <video class="js-player" id="background-video1" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/images/pexels-maksim-romashkin-15809929 (1080p).mp4" type="video/mp4">
+                        <h2>Item 1</h2>    
+                    </video>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="video-container">
+                    <a href="./assets/html/example.html">
+                    <video class="js-player" id="background-video2" autoplay="true" loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/images/pexels-maksim-romashkin-15809929 (1080p).mp4" type="video/mp4">
+                        <h2>Item 2</h2>    
+                    </video>
+                    </a>
+                </div>
+            </div> 
+            <div class="item">
+                <div class="video-container">
+                    <a href="./assets/html/example.html">
+                    <video class="js-player" id="background-video3" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/images/pexels-maksim-romashkin-15809929 (1080p).mp4" type="video/mp4" size="1080">
+                        <h2>Item 3</h2>    
+                    </video>
+                    </a>
+                </div>
+            </div> 
+            <div class="item">
+                <div class="video-container">
+                    <a href="./assets/html/example.html">
+                    <video class="js-player" id="background-video4" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/images/pexels-maksim-romashkin-15809929 (1080p).mp4" type="video/mp4">
+                        <h2>Item 4</h2>    
+                    </video>
+                    </a>
+                </div>
+            </div> 
+            <div class="item">
+                <div class="video-container">
+                    <a href="./assets/html/example.html">
+                    <video class="js-player" id="background-video5" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/images/pexels-maksim-romashkin-15809929 (1080p).mp4" type="video/mp4">
+                        <h2>Item 5</h2>    
+                    </video>
+                    </a>
+                </div>
+            </div> 
+        </section>
+        <script src="./assets/js/script.js"></script>
+        <footer> IkonicRes @ 2023</footer>
+        <div id="contactModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&#x1F5D9;</span>
+                <h2>Contact Us</h2>
+                <p>Please fill out the form below:</p>
+                <form class="contact-form">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="project-type">Project Type:</label>
+                    <select id="project-type" name="project-type">
+                        <option value="web-design">Web Design</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="e-commerce">E-Commerce</option>
+                        <option value="other">Other</option>
+                    </select>
+                
+                    <label for="budget">Budget Range:</label>
+                    <input type="text" id="budget" name="budget">
+                
+                    <label for="deadline">Project Deadline:</label>
+                    <input type="date" id="deadline" name="deadline">
+                
+                    <label for="message">Project Details:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </div>
+        </div>
+    </body>
+    </html>
